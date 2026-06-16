@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -86,14 +86,112 @@ header ul li a{
 }
 
 .hero-img{
-    border: red solid 10px;
     display: flex;
     flex: 1;
     justify-content: flex-start;
 }
+
 .hero-img img{
     width: 100%;
     height: auto;
     object-fit: fill;
     object-position: right center;
+}
+
+.random-info-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9FAF8; 
+    padding: 2% 5%;
+}
+
+.random-info-container .hero-info{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2%;
+    background-color: #F9FAF8;
+}
+.random-info-container div{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;  
+    padding: 10px;
+}
+.random-info-container img{
+    padding: 0;
+    border: #3882F6 solid 5px;
+    border-radius: 20px;
+    max-width: 300px;
+    width: 15vw;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+.random-info-container p{
+    color:#808285;
+    font-size: 18px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 10% 20%;
+}
+
+.quote-container .quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.quote-container p{
+    align-self: flex-end;
+    padding: 0;
+    margin: 0;
+    color: #1f2937;
+    font-weight: 799;
+    font-size: 30px;
+}
+
+.call-to-action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container .blue-box{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 15%;
+    padding: 5% 10%;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.blue-box h3{
+    color: #f9f9f9;
+    padding: 0;
+    margin: 0;
+    font-size: 4vh;
+}
+
+.blue-box h5{
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
 }
