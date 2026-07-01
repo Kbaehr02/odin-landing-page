@@ -59,7 +59,6 @@ header ul li a{
     gap: 16px;
     margin-right: 0;
     padding-left: 200px;
-    min-width: 500px;
     
 }
 
@@ -77,7 +76,6 @@ header ul li a{
     padding: 0;
     font-size: 16px;
     color: #E5E7EB;
-    min-width: 500px;
 }
 
 .hero-info button{
@@ -102,6 +100,7 @@ header ul li a{
     width: 100%;
     min-width: 500px;
     height: auto;
+    overflow: hidden;
 }
 
 .random-info-container{
